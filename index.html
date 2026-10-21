@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="My planned eight-hour workday: DIA 40% (3 hours 12 minutes), MOF 60% (4 hours 48 minutes). Replies may be delayed while I work across both projects.">
+  <meta name="theme-color" content="#142b2b">
+  <title>My bandwidth · Daily project allocation</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <a class="wordmark" href="./" aria-label="My bandwidth home"><span class="brand-icon" aria-hidden="true"><i></i><i></i><i></i></span>my bandwidth<span class="brand-period">.</span></a>
+      <span class="plan-label">PLANNED DAILY ALLOCATION</span>
+    </header>
+    <section class="overview" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="eyebrow"><span></span> A LITTLE CONTEXT FOR YOUR MESSAGE</p>
+        <h1 id="page-title">One workday.<br>Two project<br><em>commitments.</em></h1>
+        <p class="intro-copy">My eight-hour workday is shared between DIA and MOF. Here’s how that time is planned.</p>
+        <div class="day-key"><span class="clock-icon" aria-hidden="true"></span><strong>8 hours</strong><span>total planned workday</span></div>
+      </div>
+      <figure class="allocation-figure">
+        <div class="ring-wrap">
+          <svg class="allocation-ring" viewBox="0 0 320 320" role="img" aria-labelledby="chart-title chart-description">
+            <title id="chart-title">Daily allocation: DIA 40%, MOF 60%</title>
+            <desc id="chart-description">An eight-hour workday split into 3 hours 12 minutes for DIA and 4 hours 48 minutes for MOF.</desc>
+            <circle class="ring-track" cx="160" cy="160" r="124"/>
+            <circle class="ring-dia" cx="160" cy="160" r="124" pathLength="100" stroke-dasharray="40 60" transform="rotate(-90 160 160)"/>
+            <circle class="ring-mof" cx="160" cy="160" r="124" pathLength="100" stroke-dasharray="60 40" stroke-dashoffset="-40" transform="rotate(-90 160 160)"/>
+          </svg>
+          <div class="ring-center" aria-hidden="true"><span>THE WORKDAY</span><strong>8<span>h</span></strong><small>two projects, one day</small></div>
+        </div>
+        <figcaption><span><i class="dot dia"></i>DIA <b>40%</b></span><span><i class="dot mof"></i>MOF <b>60%</b></span></figcaption>
+      </figure>
+    </section>
+    <section class="breakdown" aria-labelledby="breakdown-title">
+      <div class="section-heading"><h2 id="breakdown-title">The daily split</h2><span>ALLOCATION / 8 HOURS</span></div>
+      <div class="project-grid">
+        <article class="project-card dia-card" aria-labelledby="dia-title">
+          <div class="project-top"><h3 id="dia-title"><i class="dot dia"></i>DIA</h3><span>01 / PROJECT</span></div>
+          <div class="project-numbers"><p class="percentage">40<span>%</span></p><p class="duration"><strong>3h 12m</strong><span>of the workday</span></p></div>
+          <div class="allocation-bar" role="img" aria-label="DIA: 40 percent of the workday"><span style="width:40%"></span></div>
+          <p class="card-caption">3 hours 12 minutes of planned daily time</p>
+        </article>
+        <article class="project-card mof-card" aria-labelledby="mof-title">
+          <div class="project-top"><h3 id="mof-title"><i class="dot mof"></i>MOF</h3><span>02 / PROJECT</span></div>
+          <div class="project-numbers"><p class="percentage">60<span>%</span></p><p class="duration"><strong>4h 48m</strong><span>of the workday</span></p></div>
+          <div class="allocation-bar" role="img" aria-label="MOF: 60 percent of the workday"><span style="width:60%"></span></div>
+          <p class="card-caption">4 hours 48 minutes of planned daily time</p>
+        </article>
+      </div>
+    </section>
+    <aside class="reply-note" aria-labelledby="reply-title">
+      <div class="message-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-6 3V6a2 2 0 0 1 2-2Z"/><path d="M7 9h10M7 13h6"/></svg></div>
+      <div><p class="eyebrow">A NOTE ON REPLIES</p><h2 id="reply-title">Thanks for your patience.</h2><p>Replies may be delayed while I work across DIA and MOF. I’ll get back to your message as soon as I can.</p></div>
+    </aside>
+    <footer><span>Making room for focused work.</span><span>Planned allocation · Not a live activity tracker</span></footer>
+  </main>
+</body>
+</html>
